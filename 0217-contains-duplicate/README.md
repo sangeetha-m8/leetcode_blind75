@@ -1,4 +1,4 @@
-# Contains Duplicate (Leetcode #217)
+# [Contains Duplicate (Leetcode #217)](https://blog.unwiredlearning.com/contains-duplicate)
 
 In this blog, we'll be tackling LeetCode problem 217: **"Contains Duplicate"**. It's a classic problem that tests your ability to effectively manage and analyze a dataset to check for the existence of duplicate elements. We'll go over the problem description, explore a brute force approach, provide hints for improving your solution, and ultimately explain an efficient way to solve it. Let's dive in!
 
