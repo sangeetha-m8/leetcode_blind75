@@ -1,4 +1,4 @@
-# [Contains Duplicate (Leetcode #217)](https://blog.unwiredlearning.com/contains-duplicate)
+# Contains Duplicate (Leetcode #217)
 
 In this blog, we'll be tackling LeetCode problem 217: **"Contains Duplicate"**. It's a classic problem that tests your ability to effectively manage and analyze a dataset to check for the existence of duplicate elements. We'll go over the problem description, explore a brute force approach, provide hints for improving your solution, and ultimately explain an efficient way to solve it. Let's dive in!
 
@@ -85,3 +85,5 @@ def containsDuplicate(nums):
 In this blog, we've covered LeetCode problem 217: "Contains Duplicate". We started with a brute force solution, which was straightforward but inefficient. By understanding the properties of a set, we improved our solution to achieve a time complexity of **O(n)** and a space complexity of **O(n)**, making it much more efficient for larger datasets.
 
 If you're looking to enhance your problem-solving skills, always remember that finding the right data structure can make all the difference! Try implementing the efficient solution on your own, and you'll see how useful Python's set can be in situations like this.
+
+Orignal Blog Source: [Contains Duplicate (Leetcode #217)](https://blog.unwiredlearning.com/contains-duplicate)
