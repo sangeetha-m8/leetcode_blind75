@@ -1,0 +1,166 @@
+{ id: 1, leetcodeId: 1, title: "Two Sum", category: "Array", difficulty: "Easy"
+},
+{ id: 2, leetcodeId: 217, title: "Contains Duplicate", category: "Array", difficulty: "Easy"
+},
+{ id: 3, leetcodeId: 242, title: "Valid Anagram", category: "String", difficulty: "Easy"
+},
+{ id: 4, leetcodeId: 49, title: "Group Anagrams", category: "String", difficulty: "Medium"
+},
+{ id: 5, leetcodeId: 347, title: "Top K Frequent Elements", category: "Array", difficulty: "Medium"
+},
+{ id: 6, leetcodeId: 392, title: "Is Subsequence", category: "String", difficulty: "Easy"
+},
+{ id: 7, leetcodeId: 128, title: "Longest Consecutive Sequence", category: "Array", difficulty: "Medium"
+},
+{ id: 8, leetcodeId: 238, title: "Product of Array Except Self", category: "Array", difficulty: "Medium"
+},
+{ id: 9, leetcodeId: 125, title: "Valid Palindrome", category: "String", difficulty: "Easy"
+},
+{ id: 10, leetcodeId: 167, title: "Two Sum II Input Array Is Sorted", category: "Array", difficulty: "Medium"
+},
+{ id: 11, leetcodeId: 15, title: "3Sum", category: "Array", difficulty: "Medium"
+},
+{ id: 12, leetcodeId: 11, title: "Container With Most Water", category: "Array", difficulty: "Medium"
+},
+{ id: 13, leetcodeId: 643, title: "Maximum Average Subarray I", category: "Array", difficulty: "Easy"
+},
+{ id: 14, leetcodeId: 121, title: "Best Time to Buy and Sell Stock", category: "Array", difficulty: "Easy"
+},
+{ id: 15, leetcodeId: 424, title: "Longest Repeating Character Replacement", category: "String", difficulty: "Medium"
+},
+{ id: 16, leetcodeId: 3, title: "Longest Substring Without Repeating Characters", category: "String", difficulty: "Medium"
+},
+{ id: 17, leetcodeId: 76, title: "Minimum Window Substring", category: "String", difficulty: "Hard"
+},
+{ id: 18, leetcodeId: 876, title: "Middle of the Linked List", category: "Linked List", difficulty: "Easy"
+},
+{ id: 19, leetcodeId: 141, title: "Linked List Cycle", category: "Linked List", difficulty: "Easy"
+},
+{ id: 20, leetcodeId: 142, title: "Linked List Cycle II", category: "Linked List", difficulty: "Medium"
+},
+{ id: 21, leetcodeId: 206, title: "Reverse Linked List", category: "Linked List", difficulty: "Easy"
+},
+{ id: 22, leetcodeId: 143, title: "Reorder List", category: "Linked List", difficulty: "Medium"
+},
+{ id: 23, leetcodeId: 19, title: "Remove Nth Node From End of List", category: "Linked List", difficulty: "Medium"
+},
+{ id: 24, leetcodeId: 21, title: "Merge Two Sorted Lists", category: "Linked List", difficulty: "Easy"
+},
+{ id: 25, leetcodeId: 23, title: "Merge K Sorted Lists", category: "Linked List", difficulty: "Hard"
+},
+{ id: 26, leetcodeId: 20, title: "Valid Parentheses", category: "Stack", difficulty: "Easy"
+},
+{ id: 27, leetcodeId: 739, title: "Daily Temperatures", category: "Stack", difficulty: "Medium"
+},
+{ id: 28, leetcodeId: 704, title: "Binary Search", category: "Binary Search", difficulty: "Easy"
+},
+{ id: 29, leetcodeId: 153, title: "Find Minimum in Rotated Sorted Array", category: "Binary Search", difficulty: "Medium"
+},
+{ id: 30, leetcodeId: 33, title: "Search in Rotated Sorted Array", category: "Binary Search", difficulty: "Medium"
+},
+{ id: 31, leetcodeId: 226, title: "Invert Binary Tree", category: "Trees", difficulty: "Easy"
+},
+{ id: 32, leetcodeId: 104, title: "Maximum Depth of Binary Tree", category: "Trees", difficulty: "Easy"
+},
+{ id: 33, leetcodeId: 100, title: "Same Tree", category: "Trees", difficulty: "Easy"
+},
+{ id: 34, leetcodeId: 572, title: "Subtree of Another Tree", category: "Trees", difficulty: "Easy"
+},
+{ id: 35, leetcodeId: 235, title: "Lowest Common Ancestor of a Binary Search Tree", category: "Trees", difficulty: "Medium"
+},
+{ id: 36, leetcodeId: 102, title: "Binary Tree Level Order Traversal", category: "Trees", difficulty: "Medium"
+},
+{ id: 37, leetcodeId: 98, title: "Validate Binary Search Tree", category: "Trees", difficulty: "Medium"
+},
+{ id: 38, leetcodeId: 230, title: "Kth Smallest Element in a BST", category: "Trees", difficulty: "Medium"
+},
+{ id: 39, leetcodeId: 105, title: "Construct Binary Tree from Preorder and Inorder Traversal", category: "Trees", difficulty: "Medium"
+},
+{ id: 40, leetcodeId: 124, title: "Binary Tree Maximum Path Sum", category: "Trees", difficulty: "Hard"
+},
+{ id: 41, leetcodeId: 297, title: "Serialize and Deserialize Binary Tree", category: "Trees", difficulty: "Hard"
+},
+{ id: 42, leetcodeId: 39, title: "Combination Sum", category: "Backtracking", difficulty: "Medium"
+},
+{ id: 43, leetcodeId: 79, title: "Word Search", category: "Backtracking", difficulty: "Medium"
+},
+{ id: 44, leetcodeId: 208, title: "Implement Trie (Prefix Tree)", category: "Tries", difficulty: "Medium"
+},
+{ id: 45, leetcodeId: 211, title: "Design Add and Search Words Data Structure", category: "Tries", difficulty: "Medium"
+},
+{ id: 46, leetcodeId: 212, title: "Word Search II", category: "Tries", difficulty: "Hard"
+},
+{ id: 47, leetcodeId: 295, title: "Find Median from Data Stream", category: "Heap", difficulty: "Hard"
+},
+{ id: 48, leetcodeId: 200, title: "Number of Islands", category: "Graphs", difficulty: "Medium"
+},
+{ id: 49, leetcodeId: 133, title: "Clone Graph", category: "Graphs", difficulty: "Medium"
+},
+{ id: 50, leetcodeId: 417, title: "Pacific Atlantic Water Flow", category: "Graphs", difficulty: "Medium"
+},
+{ id: 51, leetcodeId: 261, title: "Graph Valid Tree", category: "Graphs", difficulty: "Medium"
+},
+{ id: 52, leetcodeId: 323, title: "Number of Connected Components in an Undirected Graph", category: "Graphs", difficulty: "Medium"
+},
+{ id: 53, leetcodeId: 207, title: "Course Schedule", category: "Graphs", difficulty: "Medium"
+},
+{ id: 54, leetcodeId: 269, title: "Alien Dictionary", category: "Graphs", difficulty: "Hard"
+},
+{ id: 55, leetcodeId: 509, title: "Fibonacci Number", category: "Dynamic Programming", difficulty: "Easy"
+},
+{ id: 56, leetcodeId: 322, title: "Coin Change", category: "Dynamic Programming", difficulty: "Medium"
+},
+{ id: 57, leetcodeId: 70, title: "Climbing Stairs", category: "Dynamic Programming", difficulty: "Easy"
+},
+{ id: 58, leetcodeId: 198, title: "House Robber", category: "Dynamic Programming", difficulty: "Medium"
+},
+{ id: 59, leetcodeId: 213, title: "House Robber II", category: "Dynamic Programming", difficulty: "Medium"
+},
+{ id: 60, leetcodeId: 647, title: "Palindromic Substrings", category: "Dynamic Programming", difficulty: "Medium"
+},
+{ id: 61, leetcodeId: 5, title: "Longest Palindromic Substring", category: "Dynamic Programming", difficulty: "Medium"
+},
+{ id: 62, leetcodeId: 152, title: "Maximum Product Subarray", category: "Dynamic Programming", difficulty: "Medium"
+},
+{ id: 63, leetcodeId: 91, title: "Decode Ways", category: "Dynamic Programming", difficulty: "Medium"
+},
+{ id: 64, leetcodeId: 139, title: "Word Break", category: "Dynamic Programming", difficulty: "Medium"
+},
+{ id: 65, leetcodeId: 300, title: "Longest Increasing Subsequence", category: "Dynamic Programming", difficulty: "Medium"
+},
+{ id: 66, leetcodeId: 1143, title: "Longest Common Subsequence", category: "Dynamic Programming", difficulty: "Medium"
+},
+{ id: 67, leetcodeId: 62, title: "Unique Paths", category: "Dynamic Programming", difficulty: "Medium"
+},
+{ id: 68, leetcodeId: 881, title: "Boats to Save People", category: "Greedy", difficulty: "Medium"
+},
+{ id: 69, leetcodeId: 53, title: "Maximum Subarray", category: "Greedy", difficulty: "Medium"
+},
+{ id: 70, leetcodeId: 55, title: "Jump Game", category: "Greedy", difficulty: "Medium"
+},
+{ id: 71, leetcodeId: 56, title: "Merge Intervals", category: "Intervals", difficulty: "Medium"
+},
+{ id: 72, leetcodeId: 57, title: "Insert Interval", category: "Intervals", difficulty: "Medium"
+},
+{ id: 73, leetcodeId: 435, title: "Non-overlapping Intervals", category: "Intervals", difficulty: "Medium"
+},
+{ id: 74, leetcodeId: 252, title: "Meeting Rooms", category: "Intervals", difficulty: "Easy"
+},
+{ id: 75, leetcodeId: 253, title: "Meeting Rooms II", category: "Intervals", difficulty: "Medium"
+},
+{ id: 76, leetcodeId: 48, title: "Rotate Image", category: "Math & Geometry", difficulty: "Medium"
+},
+{ id: 77, leetcodeId: 54, title: "Spiral Matrix", category: "Math & Geometry", difficulty: "Medium"
+},
+{ id: 78, leetcodeId: 73, title: "Set Matrix Zeroes", category: "Math & Geometry", difficulty: "Medium"
+},
+{ id: 79, leetcodeId: 338, title: "Counting Bits", category: "Binary", difficulty: "Easy"
+},
+{ id: 80, leetcodeId: 268, title: "Missing Number", category: "Binary", difficulty: "Easy"
+},
+{ id: 81, leetcodeId: 191, title: "Number of 1 Bits", category: "Binary", difficulty: "Easy"
+},
+{ id: 82, leetcodeId: 190, title: "Reverse Bits", category: "Binary", difficulty: "Easy"
+},
+{ id: 83, leetcodeId: 371, title: "Sum of Two Integers", category: "Binary", difficulty: "Medium"
+}
