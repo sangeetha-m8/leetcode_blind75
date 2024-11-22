@@ -1,7 +1,7 @@
 
-# Crack Data Structures and Algirthms Interviews With Blind 75+
+# Ace DSA Coding Interviews with 14 Patterns & Blind 75+
 
-Welcome to the **Leetcode For Beginners: Crack DSA Interviews With Blind 75+**, where we will discuss the most essential coding interview problems solved in **Python**, **Java**, **C++**, and **JavaScript**. This repository includes solutions for **83 problems**, categorized based on topics, difficulty, and coding patterns.
+Welcome to the **DSA Interviews Beginner's Guide**, where we will discuss the most essential coding interview problems solved in **Python**, **Java**, **C++**, and **JavaScript**. This repository includes solutions for **83 problems**, categorized based on topics, difficulty, and coding patterns.
 
 ---
 
