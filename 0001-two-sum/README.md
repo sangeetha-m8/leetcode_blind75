@@ -1,72 +1,89 @@
 # Two Sum (Leetcode #1)
 
-Leetcode's 'Two Sum' problem is one of the most commonly asked coding interview questions, and it's a great introduction to hashmaps and efficient algorithm design. Let's dive into this problem step-by-step, starting with the question itself, exploring the brute force approach, and then explaining the optimal solution with provided code.
+Leetcode's 'Two Sum' question is a classic problem that tests your understanding of array manipulation, hash maps, and time complexity optimization. Let's break it down step-by-step:
 
-## **Understanding the Problem Statement**
+### **Understanding the Question**
 
-The 'Two Sum' problem requires finding two distinct indices in an array that add up to a given target value. Given an array of integers `nums` and an integer `target`, we need to find the indices of two numbers such that they add up to the target value.
+In the 'Two Sum' problem, you are given an array of integers, `nums`, and an integer `target`. Your task is to find two distinct indices in the array such that the sum of the numbers at those indices equals the `target`.
 
-For example, given `nums = [2, 7, 11, 15]` and `target = 9`, the solution should return `[0, 1]` because `nums[0] + nums[1] = 2 + 7 = 9`.
+You need to return the indices of the two numbers, and the solution should satisfy the following conditions:
 
-## **Brute Force Approach**
-
-One straightforward way to solve this problem is by using a nested loop. We simply iterate over each element in the array and, for each element, iterate again to find another element that sums up to the target. Here's a brief summary of this brute force approach:
-
-* Iterate over each element in `nums`.
+* There must be exactly **one solution** (no repeated pairs).
     
-* For each element, iterate through the rest of the array to check if the sum matches the target.
-    
-* If the target is found, return the corresponding indices.
+* You **cannot use the same element twice**.
     
 
-The brute force solution has a **time complexity of O(n^2)**, which becomes inefficient for larger input arrays.
+For example, given `nums = [2, 7, 11, 15]` and `target = 9`, the solution would return `[0, 1]` because `2 + 7 = 9`.
 
-## **Hint to Solve the Problem Efficiently**
+### **Brute Force Approach**
 
-The brute force approach works, but it's slow. A better way to solve this problem is by using a hashmap. The key is to store each value's index as we iterate through the array, allowing us to quickly determine if the complement of the current value (i.e., `target - nums[i]`) has already been seen.
+The simplest approach is to use two nested loops to check all possible pairs of numbers in the array. Here's the pseudocode for the brute force approach:
 
-## **Efficient Solution**
+```python
+for i in range(len(nums)):
+    for j in range(i + 1, len(nums)):
+        if nums[i] + nums[j] == target:
+            return [i, j]
+```
 
-The efficient approach makes use of a dictionary (hashmap) to store each value from the `nums` array along with its index as we traverse the list. Here is the code provided for the efficient solution:
+* **Explanation:**
+    
+    * The outer loop picks an element, and the inner loop checks every subsequent element to find a pair that sums to the target.
+        
+* **Time Complexity:**  
+    This approach takes `O(n^2)`, where nnn is the length of the array. This is because for each element, you are iterating over the remaining elements to find a matching pair.
+    
+* **Space Complexity:**  
+    The space complexity is `O(1)`, as no extra data structures are used except for a constant number of variables.
+    
+
+### **Efficient Solution**
+
+The brute force solution is inefficient for large datasets. To improve, we can use a **hashmap** (or dictionary) to store numbers and their indices while iterating through the array. The provided efficient solution achieves this in a single pass.
+
+Here’s the Python solution code provided:
 
 ```python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         hashmap = {}
-
+        
         for i in range(len(nums)):
             complement = target - nums[i]
-
+            
             if complement in hashmap:
                 return [hashmap[complement], i]
-
+            
             hashmap[nums[i]] = i
 ```
 
-How This Solution Works
-
-1. We initialize an empty dictionary (`hashmap = {}`).
+* **Explanation:**
     
-2. We iterate over the `nums` list with index `i`.
-    
-3. For each element `nums[i]`, we calculate its **complement** (i.e., `target - nums[i]`), which is the value needed to add up to the target.
-    
-4. We check if the complement is already in the hashmap.
-    
-    * If it is, then we have already encountered the other value needed to reach the target, so we return the current index and the stored index of the complement.
+    * **hashmap = {}:** We use a hashmap (or dictionary) to store the elements as keys and their indices as values.
         
-    * If it isn’t, we store the value `nums[i]` and its index in the hashmap.
+    * **complement = target - nums\[i\]:** For each element `nums[i]`, we compute its complement, which is the value we need to find in the hashmap to reach the target sum.
+        
+    * **if complement in hashmap:** If the complement exists in the hashmap, that means we have already encountered the number that, when added to `nums[i]`, equals the target.
+        
+    * **return \[hashmap\[complement\], i\]:** If the complement is found, return the indices of the two numbers.
+        
+    * **hashmap\[nums\[i\]\] = i:** If the complement is not found, store the current number and its index in the hashmap for future reference.
         
 
-## **Time and Space Complexity**
+### **Time and Space Complexity**
 
-* **Time Complexity**: The time complexity of this solution is **O(n)**, where `n` is the number of elements in `nums`. This is because we traverse the list once, and each lookup operation in the hashmap takes O(1) time.
+* **Time Complexity:**  
+    The time complexity of this solution is `O(n)`, where `n` is the length of the input array. This is because we only traverse the array once, and both the lookup and insertion operations in a hashmap are `O(1)` on average.
     
-* **Space Complexity**: The space complexity is also **O(n)**, as we store up to `n` elements in the hashmap.
+* **Space Complexity:**  
+    The space complexity is `O(n)`, where `n` is the number of elements in the array. This is because we are storing up to `n` elements in the hashmap.
     
 
-By leveraging the hashmap, this solution ensures that we only need one pass over the list, making it significantly faster than the brute force approach, especially for larger datasets.
+### Conclusion
 
-## **Conclusion**
+The optimized solution using a hashmap reduces the time complexity from `O(n^2)` in the brute force approach to `O(n)`. It’s efficient and works well even with large datasets, making it an ideal solution for this problem.
 
-The 'Two Sum' problem is a great example of how understanding data structures like hashmaps can drastically improve the efficiency of your solution. The brute force approach is simple but inefficient while using a hashmap allows us to solve the problem in linear time.
+By understanding and implementing this technique, you can effectively tackle similar problems that involve pair sums or finding elements in arrays based on certain conditions.
+
+
+README for [Two Sum (Leetcode #1)](https://blog.unwiredlearning.com/two-sum) was compiled from the Unwired Learning Blog.

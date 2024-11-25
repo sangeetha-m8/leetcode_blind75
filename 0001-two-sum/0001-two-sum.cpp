@@ -1,5 +1,6 @@
 #include <unordered_map>
 #include <vector>
+#include <stdexcept>
 
 using namespace std;
 
@@ -17,7 +18,9 @@ public:
 
             hashmap[nums[i]] = i;
         }
-
-        return {}; // Default return, although per the problem statement, a solution always exists
+        throw runtime_error("No two sum solution");
     }
 };
+
+// Question: https://leetcode.com/problems/two-sum
+// Blog: https://blog.unwiredlearning.com/two-sum
