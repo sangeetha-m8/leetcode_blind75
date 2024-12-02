@@ -66,3 +66,6 @@ During each iteration, if the current price is lower than `buy_price`, we update
 ## Conclusion
 
 By leveraging an iterative approach that maintains the minimum buying price and maximum profit, you can solve the "Best Time to Buy and Sell Stock" problem in an efficient manner. This solution highlights the importance of tracking optimal subproblems while iterating through an array, which is a common strategy in optimization problems.
+
+
+README for [Best Time to Buy and Sell Stock (Leetcode #121)](https://blog.unwiredlearning.com/best-time-to-buy-and-sell-stock) was compiled from the Unwired Learning Blog.
