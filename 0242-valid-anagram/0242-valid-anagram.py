@@ -8,6 +8,9 @@ class Solution:
         str1 = str1.replace(" ", "")
         str2 = str2.replace(" ", "")
 
+        if len(str1) != len(str2):
+            return False
+
         # Initialize the bucket array
         counts = [0] * 26
 
@@ -28,4 +31,5 @@ class Solution:
 
 
 #Question: https://leetcode.com/problems/valid-anagram
+
 #Blog: https://blog.unwiredlearning.com/valid-anagram
